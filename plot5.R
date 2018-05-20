@@ -31,6 +31,7 @@ ggplot(baltimore_Vehicles_NEI,aes(factor(year),Emissions)) +
     labs(x="year", y=expression("Total PM"[2.5]*" Emission (10^5 Tons)")) + 
     labs(title=expression("PM"[2.5]*" Motor Vehicle Source Emissions in Baltimore from 1999-2008"))
 
+# Conclusion: Emissions from motor vehicle sources have dropped from 1999-2008 in Baltimore City.
 
 
 

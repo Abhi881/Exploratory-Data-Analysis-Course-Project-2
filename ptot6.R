@@ -44,3 +44,6 @@ ggplot(Baltimore_LA_NEI, aes(x=factor(year), y=Emissions, fill=fips)) +
     guides(fill=FALSE) + theme_bw() +
     labs(x="year", y=expression("Total PM"[2.5]*" Emission (Kilo-Tons)")) + 
     labs(title=expression("PM"[2.5]*" Motor Vehicle Source Emissions in Baltimore & LA, 1999-2008"))
+
+
+# Conclusion : Los Angeles County has seen the greatest changes over time in motor vehicle emissions in compasion to Baltimore city.

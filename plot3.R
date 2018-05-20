@@ -27,3 +27,8 @@ ggplot(baltimoreNEI_data,aes(year,Emissions,fill=type)) +
     facet_grid(.~type,scales = "free",space="free") + 
     labs(x="year", y=expression("Total PM"[2.5]*" Emission (Tons)")) + 
     labs(title=expression("PM"[2.5]*" Emissions, Baltimore City 1999-2008 by Source Type"))
+
+## conclusion :
+#1. The non-road, nonpoint, on-road source types have all seen decreased emissions overall from 1999-2008 in Baltimore City.
+#2. The point source saw a slight increase overall from 1999-2008. Also note that the point source saw a significant increase until 2005 at which point it decreases again by 2008 to just above the starting values.
+

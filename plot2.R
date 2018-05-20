@@ -35,3 +35,4 @@ barplot(
     col="red"
 )
 
+# conclusion : Overall total emissions from PM2.5 have decreased in Baltimore City, Maryland from 1999 to 2008.

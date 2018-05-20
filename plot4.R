@@ -30,3 +30,5 @@ ggplot(coal_combustion_NEI,aes(factor(year),Emissions/10^5)) +
     theme_bw() +  guides(fill=FALSE) +
     labs(x="year", y=expression("Total PM"[2.5]*" Emission (10^5 Tons)")) + 
     labs(title=expression("PM"[2.5]*" Coal Combustion Source Emissions Across US from 1999-2008"))
+
+# Conclusion: Emissions from coal combustion related sources have decreased from 6 * 10^6 to below 4 * 10^6 from 1999-2008.
